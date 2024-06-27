@@ -1,5 +1,23 @@
 <p> Bienvenido al chatbot del Knowledge Navigator. Esto es una prueba </p>
 
+<! -- pruebas qwiklabs -->
+
+<!-- Widget JavaScript bundle -->
+<script src="https://cloud.google.com/ai/gen-app-builder/client?hl=en_US"></script>
+
+<!-- Search widget element is not visible by default -->
+<gen-search-widget
+  configId="8cbf4207-2c80-4d5a-957c-8d4d36120356"
+  triggerId="searchWidgetTrigger">
+</gen-search-widget>
+
+<!-- Element that opens the widget on click. It does not have to be an input -->
+<input placeholder="Search here" id="searchWidgetTrigger" />
+
+<! -- fin pruebas qwiklabs -->
+
+<! -- código del chatbot -->
+
 <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
 <df-messenger
   project-id="optimizacionrutas"
@@ -17,3 +35,4 @@
     right: 16px;
   }
 </style>
+<! -- fin código del chatbot -->
